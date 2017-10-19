@@ -13,9 +13,11 @@
 	<platform name="android">
 		<preference name="fullscreen" value="true" />
 		<preference name="orientation" value="portrait" />
-		<preference name="phonegap-version" value="cli-7.0.1" />
+		<preference name="phonegap-version" value="cli-5.1.1" />
 	</platform>
 	
+	<gap:plugin name="org.apache.cordova.dialogs" />
+	<gap:plugin name="org.apache.cordova.vibration" />
   
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
