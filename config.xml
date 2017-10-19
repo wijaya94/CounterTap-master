@@ -16,8 +16,8 @@
 		<preference name="phonegap-version" value="cli-7.0.1" />
 	</platform>
 	
-	<gap:plugin name="org.apache.cordova.dialogs" />
-	<gap:plugin name="org.apache.cordova.vibration" />
+	<plugin spec=“https://github.com/apache/cordova-plugin-dialogs.git” source=“git” />
+	<plugin spec=“https://github.com/apache/cordova-plugin-vibration.git” source=“git” />
   
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
