@@ -19,7 +19,9 @@
 	<feature name="Vibration">
 		<param name="android-package" value="org.apache.cordova.vibration.Vibration" />
 	</feature>
-  
+	<feature name="Dialogs">
+		<param name="android-package" value="org.apache.cordova.dialogs.Dialogs" />
+	</feature>
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
 		android:normalScreens="true"
