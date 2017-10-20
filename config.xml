@@ -16,7 +16,9 @@
 		<preference name="phonegap-version" value="cli-7.0.1" />
 	</platform>
 	
-	<plugin name="org.apache.cordova.vibration" spec="2.1.0" source="npm" />
+	<feature name="Vibration">
+		<param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+	</feature>
   
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
